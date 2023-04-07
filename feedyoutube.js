@@ -1,7 +1,7 @@
 // Função para fazer uma requisição AJAX para a API do YouTube e processar os resultados
 function buscarVideosShorts() {
   var chaveApi = 'AIzaSyDi4ijvupolUUlVqJxZwsVpso69cSIpn6Q';
-  var maxResultados = 25; // Número máximo de vídeos curtos a serem buscados
+  var maxResultados = 15; // Número máximo de vídeos curtos a serem buscados
   
   //A principal
   var urlApi = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=' + maxResultados + '&q=shorts&type=video&key=' + chaveApi;
